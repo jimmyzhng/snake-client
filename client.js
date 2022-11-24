@@ -14,8 +14,9 @@ const connect = function() {
 
   conn.setEncoding("utf8");
 
-  const connectData = conn.on("connect", (data) => {
-    console.log(data);
+  conn.on("connect", (data) => {
+    console.log('Successfully connected to game server.');
+    conn.write("Name: XYZ");
   });
 
   // Event handler: code that edfines what to do when an event occurs
