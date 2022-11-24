@@ -16,8 +16,17 @@ const connect = function() {
 
   conn.on("connect", (data) => {
     console.log('Successfully connected to game server.');
-    conn.write("Name: XYZ");
+    conn.write("Name: POO");
   });
+
+  // conn.on("connect", (data) => {
+  //   conn.write("Move: down");
+  //   setTimeout(() => {
+  //     conn.write("Move: left");
+  //   }, 5000);
+
+  // });
+
 
   // Event handler: code that edfines what to do when an event occurs
   // .on method lets you specify event name and function that does something when event happens
