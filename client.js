@@ -20,12 +20,6 @@ const connect = function() {
     conn.write("Name: POO");
   });
 
-  // conn.on("connect", (data) => {
-  //   conn.write("Move: down");
-  //   setTimeout(() => {
-  //     conn.write("Move: left");
-  //   }, 5000);
-
   // });
 
 
