@@ -2,6 +2,7 @@ const net = require('net');
 
 // establishes a connection with the game server
 const connect = function() {
+
   // createConnect is used to create an object named conn
   // Represents the connection you have with server
   // conn object full of useful methods/ properties that can be used
